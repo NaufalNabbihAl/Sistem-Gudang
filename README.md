@@ -13,6 +13,9 @@
 4. Run this -> docker build -t sistem-gudang-laravel .
 5. Run this -> docker run -d -p 8080:80 --name sistem-gudang-app sistem-gudang-laravel
 
+## Link POSTMAN
+
+https://documenter.getpostman.com/view/30272623/2sAXqv6LsY
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
