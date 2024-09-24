@@ -1,3 +1,19 @@
+## How To Install This ON LOCAL 
+1. Create a .env 
+2. Copy source code from .env.example
+3. If you use mysql change the DB_CONNECTION from sqlite to mysql and change delete comment below from DB_CONNECTION until DB_PASSWORD
+4. Install Composer with this code -> composer install
+5. Generate the key with this code -> php artisan key:generate
+6. Run php artisan
+
+## How To Install This ON DOCKER
+1. Create a .env 
+2. Copy source code from .env.example
+3. If you use mysql change  DB_CONNECTION from sqlite to mysql, change DB_HOST from 127.0.0.1 to host.docker.internal and change delete comment below from DB_CONNECTION until DB_PASSWORD
+4. Run this -> docker build -t sistem-gudang-laravel .
+5. Run this -> docker run -d -p 8080:80 --name sistem-gudang-app sistem-gudang-laravel
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
